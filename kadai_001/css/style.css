@@ -1,0 +1,159 @@
+/* 共通のスタイル */
+
+body{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav{
+  width: 68%;
+  margin: 0 auto;
+}
+
+#menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 16px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+#myprofile{
+  border: 1px solid;
+  padding: 1px 22px;
+  align-content: center;
+}
+
+#about-works{
+  display: inline-block;
+}
+
+#about-works>a{
+  color: black;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+#mainvisual{
+  width:100%;
+  margin-top: 25px;
+}
+
+.title-1,.title-2{
+  font-size: 34px;
+  text-align: center;
+  margin-top: 87px;
+}
+
+#profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img{
+  margin: 80px;
+}
+
+.profile-img>img{
+  width: 280px;
+}
+
+.name{
+  font-size: 24px;
+}
+
+ul{
+  font-size: 18px;
+}
+
+#pictures{
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  font-size: 18px;
+  padding: 0px 16px 0px 0px ;
+  width: 240px;
+  vertical-align: top;
+}
+
+.content>img{
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* SPのスタイル */
+@media screen and (max-width: 767px){
+  nav{
+    width: 100%;
+    margin: 0 auto;
+  }
+  #menu{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #myprofile{
+    border: 1px solid;
+    padding: 0px 5px;
+    align-content: center;
+  }
+
+  .title-1,.title-2{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .title-1{
+    margin-top: 18px;
+  }
+
+  .title-2{
+    margin-top: 83px;
+  }
+
+  #profile{
+    display: block;
+    text-align: center;
+  }
+
+  .profile-img{
+    margin: 0 auto;
+  }
+
+  .name{
+    font-size: 22px;
+  }
+  
+  ul{
+    font-size: 16px;
+  }
+  
+  .text{
+    text-align: left;
+    display: inline-block;
+  }
+
+  #pictures{
+    display: block;
+    text-align: center;
+  }
+  
+  .content{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0 auto;
+    width: 330px;
+  }
+
+  .content>p>img{
+    width: 330px;
+  }
+
+}
